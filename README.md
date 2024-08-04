@@ -70,6 +70,32 @@ The Azure SIEM Honeypot project aimed to establish a controlled environment for 
 17. Then I custom named the log FAILED_RDP_WITH_GEO. Then selected next and create.
     <img width="524" alt="image" src="https://github.com/user-attachments/assets/8c0c5d71-7c95-469e-b32b-96f1fb6ca25f">
 
+18. This took several minutes to populate. To test this out I navigated to the log analytics page and go to logs. Queried FAILED_RDP_WITH_GEO_CL and the geodata populated after several minutes. In the mean time I Queried SecurityEvent and was getting several results.
+
+19. To verify failed log in attempts I tried the SecurityEvent | where EventID == 4625 and only got a few results.
+
+20. Next I parsed out the geodata using a KQL script within log analytics to make sure everything looked correct.
+    Failed_RDP_With_GEO_CL
+| parse RawData with * "latitude:" Latitude ",longitude:" Longitude ",destinationhost:" DestinationHost ",username:" Username ",sourcehost:" Sourcehost ",state:" State ", country:" Country ",label:" Label ",timestamp:" Timestamp 
+| extend EventCount = 1
+//| summarize event_count = sum(EventCount) by Sourcehost, Latitude, Longitude, Country, Label, DestinationHost
+| summarize event_count = sum(EventCount) by Latitude, Longitude, DestinationHost, Username, Sourcehost, State, Country,Label, Timestamp
+| project Latitude, Longitude, DestinationHost, Username, Sourcehost, State, Country, Label, Timestamp
+
+21. Next I navigated to sentinel and added a workbook. Then I removed widgets that weren't needed.
+
+22. Next I selected Add a workbook > Add Query.
+    <img width="308" alt="image" src="https://github.com/user-attachments/assets/88e69582-a8ed-4c7b-beea-57e79a611974">
+
+
+24. Within the new workbook I ran the query below and set the visualization dropdown to map
+   <img width="705" alt="image" src="https://github.com/user-attachments/assets/019507a8-aea4-4f4c-a3e9-84b2524ff3c8">
+
+   
+ 
+
+
+
 
 
 
