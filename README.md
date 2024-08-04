@@ -18,7 +18,7 @@ The Azure SIEM Honeypot project aimed to establish a controlled environment for 
 [Bullet Points - Remove this afterwards]
 
 - Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
+- Powershell and log analytics via Azure.
 - Telemetry generation tools to create realistic network traffic and attack scenarios.
 
 ## Steps
