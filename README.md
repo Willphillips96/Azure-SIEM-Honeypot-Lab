@@ -56,6 +56,23 @@ The Azure SIEM Honeypot project aimed to establish a controlled environment for 
 
 11. An API key is required to run the script. Once the API key was entered I ran the script. This script retreives the failed login attempts via the event viewer and sends it out to the IPgeolocator and creates a text file with the geo data.
 
+12. Created a custom log in log analytics by going to log analytics Tables > Create > New Custom log (MMA-Based)
+
+13. Copied the geodata from the failed_rdp notepad with the geo data from the VM, then pasted it into a notepad on my machine and saved it as failed_rdp.log.
+
+14. Then I navigated to the failed_rdp.log from my machine and uploaded it to the custom log.
+    <img width="539" alt="image" src="https://github.com/user-attachments/assets/7d4ccf49-78e0-448f-aeb9-8e0e35c40dd7">
+
+15. I double checked that the latitude and the longitude is correct and selected next.
+
+16. Under select type I chose windows then typed in the path to the failed_rdp.log C:\programdata\failed_rdp.log then selected next.
+
+17. Then I custom named the log FAILED_RDP_WITH_GEO. Then selected next and create.
+    <img width="524" alt="image" src="https://github.com/user-attachments/assets/8c0c5d71-7c95-469e-b32b-96f1fb6ca25f">
+
+
+
+
 
 
 
