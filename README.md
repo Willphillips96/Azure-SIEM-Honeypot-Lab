@@ -88,8 +88,18 @@ The Azure SIEM Honeypot project aimed to establish a controlled environment for 
     <img width="308" alt="image" src="https://github.com/user-attachments/assets/88e69582-a8ed-4c7b-beea-57e79a611974">
 
 
-24. Within the new workbook I ran the query below and set the visualization dropdown to map
+24. Within the new workbook I ran the query below and set the visualization dropdown to map.
    <img width="705" alt="image" src="https://github.com/user-attachments/assets/019507a8-aea4-4f4c-a3e9-84b2524ff3c8">
+
+25. Some map setting editing needed to happen. Through trial and error these were my results for it to work properly.
+    <img width="293" alt="image" src="https://github.com/user-attachments/assets/53ff1e27-7644-48f1-a59e-4fca3b6bf42f">
+    <img width="291" alt="image" src="https://github.com/user-attachments/assets/62f30dd9-b482-43bc-b577-742047167b09">
+    <img width="290" alt="image" src="https://github.com/user-attachments/assets/89a16aa4-b1da-4751-a8ef-c9612aa3b09d">
+
+26. Last but not least I ran the Query on step
+
+
+
 
    
  
