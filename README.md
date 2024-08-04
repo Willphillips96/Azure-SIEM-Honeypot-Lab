@@ -9,6 +9,7 @@ The Azure SIEM Honeypot project aimed to establish a controlled environment for 
 
 
 - Advanced understanding of SIEM concepts and practical application.
+- Effectively managed an Azure Resource Group
 - Successfully deployed a virtual machine and secured it with a complex password.
 - Gained proficiency in KQL Querying.
 - Developed expertise in utilizing PowerShell.
