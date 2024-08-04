@@ -43,6 +43,19 @@ The Azure SIEM Honeypot project aimed to establish a controlled environment for 
 6. Navigated back to the log analytics workspace and selected the VM. Then selected connect.
    <img width="916" alt="image" src="https://github.com/user-attachments/assets/fa59893f-c656-41ec-946e-24bcce9c89e3">
 
+7. Navigated to Sentinel. This is going to be used to visualize the attack data. Next I created my Sentinel by adding the log analytics workspace that I want to connect to (Law-honeypot2).
+
+
+8. While Sentinel is loading I logged into the VM I created by using RDP. Learned that failed login attempts will appear under the security tab of event viewer.
+
+9. Navigated to wf.msc within the VM and turned off the firewall state to off on the domain profile, private profile, and public profile.
+
+    <img width="598" alt="image" src="https://github.com/user-attachments/assets/ad96c7de-0892-4e5f-8a3a-b28544fc6cd7">
+
+10. Downloaded a custom powershell script to export the logs to geolocation and inserted it into powershell ISE and saved it as log_exporter.
+
+11. An API key is required to run the script. Once the API key was entered I ran the script. This script retreives the failed login attempts via the event viewer and sends it out to the IPgeolocator and creates a text file with the geo data.
+
 
 
 
