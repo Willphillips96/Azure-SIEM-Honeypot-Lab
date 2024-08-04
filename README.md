@@ -19,7 +19,7 @@ The Azure SIEM Honeypot project aimed to establish a controlled environment for 
 
 - Security Information and Event Management (SIEM) system for log ingestion and analysis.
 - Powershell
-- Log Analytics via Azure
+- Log Analytics Workspace via Azure
 - IPgeolocator API
 
 ## Steps
