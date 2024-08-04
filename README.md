@@ -116,8 +116,4 @@ The Azure SIEM Honeypot project aimed to establish a controlled environment for 
 
 
 
-Every screenshot should have some text explaining what the screenshot is about.
 
-Example below.
-
-*Ref 1: Network Diagram*
