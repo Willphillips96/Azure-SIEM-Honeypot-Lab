@@ -96,7 +96,7 @@ The Azure SIEM Honeypot project aimed to establish a controlled environment for 
     <img width="291" alt="image" src="https://github.com/user-attachments/assets/62f30dd9-b482-43bc-b577-742047167b09">
     <img width="290" alt="image" src="https://github.com/user-attachments/assets/89a16aa4-b1da-4751-a8ef-c9612aa3b09d">
 
-26. Last but not least I ran the Query on step
+26. Last but not least I ran the Query on step 23 and the map will work successfully. Keep in mind it does take time to populate as bad actors are discovering the vulnerable machine!
 
 
 
