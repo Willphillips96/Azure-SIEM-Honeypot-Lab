@@ -3,7 +3,7 @@
 ## Objective
 
 
-The Azure SIEM Honeypot project aimed to establish a controlled environment for simulating and detecting Login attempts. The primary focus was to ingest, analyze, and parse logs within a Security Information and Event Management (SIEM) system, generating a geolocation with metrics of the login attempts. This hands-on experience was designed to deepen understanding of SIEM's, Logs, and The importance of firewalls and security measures.
+The Azure SIEM Honeypot project aimed to establish a controlled environment for simulating and detecting Login attempts. The primary focus was to ingest, analyze, parse logs within a Security Information and Event Management (SIEM) system, and generate a geolocation with metrics of the login attempts. This hands-on experience was designed to deepen understanding of SIEM's, Logs, and The importance of firewalls and security measures.
 
 ### Skills Learned
 
