@@ -9,7 +9,7 @@ The Azure SIEM Honeypot project aimed to establish a controlled environment for 
 [Bullet Points - Remove this afterwards]
 
 - Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
+- Successfully deployed a virtual machine and secured it with a complex password.
 - Ability to generate and recognize attack signatures and patterns.
 - Enhanced knowledge of network protocols and security vulnerabilities.
 - Development of critical thinking and problem-solving skills in cybersecurity.
@@ -18,8 +18,9 @@ The Azure SIEM Honeypot project aimed to establish a controlled environment for 
 [Bullet Points - Remove this afterwards]
 
 - Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Powershell and log analytics via Azure.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Powershell
+- Log Analytics via Azure
+- IPgeolocator API
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
