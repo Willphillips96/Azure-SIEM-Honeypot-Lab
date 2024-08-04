@@ -26,7 +26,11 @@ The Azure SIEM Honeypot project aimed to establish a controlled environment for 
 - IPgeolocator API
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+1. Configured and created the virtual machine. I deleted the original inbound rule and custom created an inbound rule that allows everything into the VM.
+   <img width="922" alt="image" src="https://github.com/user-attachments/assets/9f840bb4-5d65-4146-8082-30e988c52707">
+
+2. Created a log analytics workspace to ingest logs from the VM.
+
 
 Every screenshot should have some text explaining what the screenshot is about.
 
