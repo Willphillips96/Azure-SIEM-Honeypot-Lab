@@ -73,7 +73,8 @@ The Azure SIEM Honeypot project aimed to establish a controlled environment for 
 
 17. To verify failed log in attempts I tried the SecurityEvent | where EventID == 4625 and only got a few results.
 
-18. Next I parsed out the geodata using a KQL script within log analytics to make sure everything looked correct.
+18. Next I parsed out the geodata using a KQL script below within log analytics to make sure everything looked correct (Latitude/Longitude being in the correct spot ect).
+
     Failed_RDP_With_GEO_CL
 | parse RawData with * "latitude:" Latitude ",longitude:" Longitude ",destinationhost:" DestinationHost ",username:" Username ",sourcehost:" Sourcehost ",state:" State ", country:" Country ",label:" Label ",timestamp:" Timestamp 
 | extend EventCount = 1
@@ -81,21 +82,21 @@ The Azure SIEM Honeypot project aimed to establish a controlled environment for 
 | summarize event_count = sum(EventCount) by Latitude, Longitude, DestinationHost, Username, Sourcehost, State, Country,Label, Timestamp
 | project Latitude, Longitude, DestinationHost, Username, Sourcehost, State, Country, Label, Timestamp
 
-19. Next I navigated to sentinel and added a workbook. Then I removed widgets that weren't needed.
+20. Next I navigated to sentinel and added a workbook. Then I removed widgets that weren't needed.
 
-20. Next I selected Add a workbook > Add Query.
+21. Next I selected Add a workbook > Add Query.
     <img width="308" alt="image" src="https://github.com/user-attachments/assets/88e69582-a8ed-4c7b-beea-57e79a611974">
 
 
-21. Within the new workbook I ran the query below and set the visualization dropdown to map.
+22. Within the new workbook I ran the query below and set the visualization dropdown to map.
    <img width="705" alt="image" src="https://github.com/user-attachments/assets/019507a8-aea4-4f4c-a3e9-84b2524ff3c8">
 
-22. Some map setting editing needed to happen. Through trial and error these were my results for it to work properly.
+23. Some map setting editing needed to happen. Through trial and error these were my results for it to work properly.
     <img width="293" alt="image" src="https://github.com/user-attachments/assets/53ff1e27-7644-48f1-a59e-4fca3b6bf42f">
     <img width="291" alt="image" src="https://github.com/user-attachments/assets/62f30dd9-b482-43bc-b577-742047167b09">
     <img width="290" alt="image" src="https://github.com/user-attachments/assets/89a16aa4-b1da-4751-a8ef-c9612aa3b09d">
 
-23. Last but not least I ran the most recent query above and the map plotted the data successfully. Keep in mind it does take time to populate as bad actors are discovering the vulnerable machine! Below is an example of the end result.
+24. Last but not least I ran the most recent query above and the map plotted the data successfully. Keep in mind it does take time to populate as bad actors are discovering the vulnerable machine! Below is an example of the end result.
 
     <img width="833" alt="image" src="https://github.com/user-attachments/assets/82dc4938-4feb-4f27-b3d6-8f3f4bf0cec4">
 
