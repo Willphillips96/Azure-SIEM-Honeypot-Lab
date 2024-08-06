@@ -20,10 +20,11 @@ The Azure SIEM Honeypot project is aimed to establish a controlled environment f
 
 - Azure
 - Security Information and Event Management (SIEM)
-- Windows Event Viewer
+- Microsoft Sentinel Workbooks
+- Windows Security Event Viewer logs
 - Powershell
-- Azure Log Analytics Workspace
-- IPgeolocator API
+- Log Analytics Workspace
+- IPgeolocation API
 
 ## Steps
 1. Configured and created the virtual machine. I deleted the original inbound rule and custom created an inbound rule that allows everything into the VM.
