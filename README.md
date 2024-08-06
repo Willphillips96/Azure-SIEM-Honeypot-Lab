@@ -18,6 +18,7 @@ The Azure SIEM Honeypot project is aimed to establish a controlled environment f
 ### Tools Used
 
 
+- Azure
 - Security Information and Event Management (SIEM)
 - Windows Event Viewer
 - Powershell
