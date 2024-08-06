@@ -3,7 +3,7 @@
 ## Objective
 
 
-The Azure SIEM Honeypot project is aimed to establish a controlled environment for simulating and detecting Login attempts by modifying the Network Security Group (NSG) to allow all inbound traffic from the internet to the VM. This allows my device to be attacked from the internet. The primary focus was to ingest, analyze, parse logs within a Security Information and Event Management (SIEM) system, and configure a geolocation map in Sentinel with metrics of the login attempts. This hands-on experience was designed to deepen understanding of SIEM's, Logs, and The importance of firewalls and security measures.
+The Azure SIEM Honeypot project is aimed to establish a controlled environment for simulating and detecting login attempts by modifying the Network Security Group (NSG) to allow all inbound traffic from the internet to the VM. This allows my device to be attacked from the internet. The primary focus was to ingest, analyze, parse logs within a Security Information and Event Management (SIEM) system, and configure a geolocation map in Sentinel with metrics of the login attempts. This hands-on experience was designed to deepen understanding of SIEM's, Logs, and The importance of firewalls and security measures.
 
 ### Skills Learned
 
