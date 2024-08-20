@@ -53,7 +53,7 @@ The Azure SIEM Honeypot project is aimed to establish a controlled environment f
 
 11. While Sentinel is loading I logged into the VM I created by using RDP. Learned that failed login attempts will appear under the security tab of event viewer.
 
-12. Navigated to wf.msc within the VM and turned off the firewall state to off on the domain profile, private profile, and public profile.
+12. Navigated to wf.msc within the VM and turned off the firewall state to off on the domain profile, private profile, and public profile. Which is essentially opening the VM to the entire interntet.
 
     <img width="598" alt="image" src="https://github.com/user-attachments/assets/ad96c7de-0892-4e5f-8a3a-b28544fc6cd7">
 
