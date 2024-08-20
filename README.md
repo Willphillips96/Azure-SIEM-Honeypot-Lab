@@ -36,7 +36,7 @@ The Azure SIEM Honeypot project is aimed to establish a controlled environment f
     ![image](https://github.com/user-attachments/assets/b05f6c91-0099-4556-8435-e445b894c473)
 
 
-5. Enabled the ability to gather logs from the VM into the log analytics workspace within Microsoft Defender for Cloud. To do that I went to the envrionment settings under management. Selected the log analytics that was just created (Law-honeypot2) > then tuned SQL Severs off.
+5. Enabled the ability to gather logs from the VM into the log analytics workspace within Microsoft Defender for Cloud. To do that I went to the envrionment settings under management. Selected the log analytics that was just created (Law-honeypot2) > then turned SQL Severs off.
 
    <img width="920" alt="image" src="https://github.com/user-attachments/assets/2c9aa90d-afca-4297-93ef-fb8b78e37634">
 
