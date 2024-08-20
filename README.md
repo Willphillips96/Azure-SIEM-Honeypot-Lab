@@ -109,7 +109,7 @@ The Azure SIEM Honeypot project is aimed to establish a controlled environment f
     
     <img width="290" alt="image" src="https://github.com/user-attachments/assets/89a16aa4-b1da-4751-a8ef-c9612aa3b09d">
 
-25. Last but not least I ran the most recent query above and the map plotted the data successfully. Keep in mind it does take time to populate as bad actors are discovering the vulnerable machine! Below is an example of the end result.
+25. Last but not least I ran the most recent query above and the map plotted the data successfully. Keep in mind it does take time to populate as bad actors are discovering the vulnerable machine! Below is an example of the end result. This is the data shown only after several hours of the VM being completely open to the internet!
 
     <img width="833" alt="image" src="https://github.com/user-attachments/assets/82dc4938-4feb-4f27-b3d6-8f3f4bf0cec4">
 
