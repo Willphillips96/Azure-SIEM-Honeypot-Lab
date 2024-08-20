@@ -48,7 +48,7 @@ The Azure SIEM Honeypot project is aimed to establish a controlled environment f
 
     <img width="916" alt="image" src="https://github.com/user-attachments/assets/fa59893f-c656-41ec-946e-24bcce9c89e3">
 
-10. Navigated to Sentinel. This is going to be used to visualize the attack data. Next I created my Sentinel by adding the log analytics workspace that I want to connect to (Law-honeypot2).
+10. Navigated to Sentinel. This is going to be used to visualize the attack data. Next I created my Sentinel SIEM and added the log analytics workspace that I want to connect to (Law-honeypot2).
 
 
 11. While Sentinel is loading I logged into the VM I created by using RDP. Learned that failed login attempts will appear under the security tab of event viewer.
